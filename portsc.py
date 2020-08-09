@@ -8,7 +8,8 @@ moscow = r"""
 """
 print("\033[0;32m",moscow)
 print("\n")
-
+print("script by moscow")
+print("\n")
 l = input("Lyera ip addressk banwsa:  ")
 try:
     for p in range(1,10000):
