@@ -14,7 +14,7 @@ l = input("Lyera ipka banwsa:  ")
 try:
     for p in range(1,10000):
         a = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-        socket.setdefaulttimeout(1)
+        socket.setdefaulttimeout(0.1)
         e = a.connect_ex((l,p))
         if e == 0:
             ss = socket.getservbyport(p)
